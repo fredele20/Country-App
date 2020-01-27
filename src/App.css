@@ -1,0 +1,145 @@
+.head {
+  margin-left: 30px
+}
+
+li {
+  font-weight: bolder;
+}
+
+.custom {
+  border: 2px solid rgb(107, 113, 107) !important;
+  margin: auto;
+  width: 100% !important;
+  margin-top: 70px;
+  margin-bottom: -55px;
+}
+
+.header {
+  background: rgb(5, 109, 174);
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: rgb(184, 184, 184);
+  height: 10vh;
+  bottom: -8%;
+}
+
+.header h4 {
+  position: absolute;
+  bottom: 15%;
+  left: 9%;
+}
+
+.header p {
+  position: absolute;
+  right: 14%;
+  font-size: 25px;
+  top: 25%;
+  text-transform: capitalize;
+}
+
+input {
+  position: fixed;
+  top: 2%;
+  left: 67%;
+  border: solid 1px white;
+  color: rgb(5, 109, 174) !important;
+  width: 20%;
+  border-radius: 15px;
+  height: 6%;
+}
+
+::placeholder {
+  font-weight: bolder;
+  margin-left: 5%;
+}
+
+footer {
+  background: rgb(5, 109, 174);
+  position: fixed;
+  /* top: 80px; */
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 10vh;
+  color: rgb(184, 184, 184);
+  margin-top: 30%;
+  
+}
+
+.space {
+  margin-bottom: 15% !important;
+}
+
+.backgroudImage {
+  width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+
+  .head {
+    font-size: 40px !important;
+    margin: 10%;
+    padding-left: 50px;
+    font-size: 10px;
+  }
+
+  .header h4 {
+    font-size: 17px;
+    bottom: 25% !important;
+    left: 5%;
+  }
+
+  .header p {
+    right: 8%;
+    font-size: 20px;
+    top: 36%;
+  }
+
+  input {
+    height: 4%;
+    width: 35%;
+    left: 58%;
+    top: 3.5%;
+  }
+
+  .space {
+    display: inline-block !important;
+    margin: auto !important;
+    padding: 10% !important;
+    margin-top: 0% !important;
+    margin-bottom: 40% !important;
+
+  }
+
+  .custom {
+    margin-bottom: -85px;
+  }
+
+  .backgroudImage {
+    margin-top: 18%;
+  }
+
+  .detailh1 {
+    font-size: 20px;
+    margin-left: 18%;
+    margin-top: 5%;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
